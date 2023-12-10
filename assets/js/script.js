@@ -10,5 +10,5 @@ button.addEventListener('click', function () {
         result = 'Digite um valor';
     }
 
-    document.querySelector('#result > span').textContent = result;
+    document.querySelector('#result > h1').textContent = result;
 });
